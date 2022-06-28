@@ -1,8 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="styles/detail.css" type="text/css" rel="stylesheet">
 </head>
 
@@ -11,41 +13,43 @@
 
     <div class="main_container">
 
-        <header>
-            <a href="index.html"><img class="logo" src="assests/images/logo.png" alt="logo" width="200" height="150"></a>
-            <a href="login.html" target="_blank">Login</a>
+        <header class="header">
+            <a href="index.html"><img class="logo" src="assests/images/logo.png" alt="logo"></a>
+            <a href="login.html">Login</a>
         </header>
         <div>
-            <a href="detail.html" target="_blank"> <img class="cityimg" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="Radisson Blu Hotel"> </a>
-            <a href="detail.html" target="_blank">
+            <a href="detail.html"> <img class="cityimg" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="Radisson Blu Hotel"> </a>
+
             </a>
-            <form action="payment.html">
+
+            <form action="payment.html" class="form">
                 Adults: <input type="number" name="adults" required min="1" value="1">
                 <br>
-                <a href="payment.html"></a> Name: <input type="text" name="name" id="" required><br> From Date : <input type="date" name="fromdate" required><br> To Date: <input type="date" name="todate" equired><br> Total: <input type="text" name="total" readonly><br>
+                <a href="payment.html"></a> Name: <input type="text" name="name" id="" required autocomplete="off"><br> From Date : <input type="date" name="fromdate" required><br> To Date: <input type="date" name="todate" equired><br> Total: <input type="text" name="total"
+                    readonly><br>
                 <button>Book Now</button>
             </form>
 
+            <div class="content">
+                <h2>Radisson Blu Hotel</h2>
 
-            <h2>Radisson Blu Hotel</h2>
 
+                RATING<br>
+                <br> 5 Star<br>
+                <br> AMENITIES
+                <ul>
+                    <li>Room service</li>
+                    <li>Restaurant</li>
+                    <li>Business center</li>
+                    <li>Fitness center</li>
+                    <li>Pool</li>
+                </ul>
 
-            RATING<br>
-            <br> 5 Star<br>
-            <br> AMENITIES
-            <ul>
-                <li>Room service</li>
-                <li>Restaurant</li>
-                <li>Business center</li>
-                <li>Fitness center</li>
-                <li>Pool</li>
-            </ul>
-
-            <h5>DESCRIPTION</h5>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Deleniti, illum totan magni voluptatibus libero delectus nesciunt hic vel! Aperiam esse asperiores culpa, natus quam enum ex doloremque doloribus architecto!</p>
-
+                <h5>DESCRIPTION</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Deleniti, illum totan magni voluptatibus libero delectus nesciunt hic vel! Aperiam esse asperiores culpa, natus quam enum ex doloremque doloribus architecto!</p>
+            </div>
         </div>
-        <footer>
+        <footer class="footer">
 
             <div>
                 <a href="contact.html" target="_blank">Contact Us</a>
@@ -53,13 +57,13 @@
             <div>
 
                 <a href="http://www.facebook.com" target="_blank">
-                    <img src="assests/images/facebook.png" alt="Facebook">
+                    <img class="social_handles" src="assests/images/facebook.png" alt="Facebook">
                 </a>
                 <a href="http://www.instagram.com" target="_blank">
-                    <img src="assests/images/instagram.png" alt="instagram">
+                    <img class="social_handles" src="assests/images/instagram.png" alt="instagram">
                 </a>
                 <a href="http://www.twitter.com" target="_blank">
-                    <img src="assests/images/twitter.png" alt="twitter">
+                    <img class="social_handles" src="assests/images/twitter.png" alt="twitter">
                 </a>
 
             </div>

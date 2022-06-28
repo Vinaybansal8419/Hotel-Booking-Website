@@ -1,6 +1,16 @@
 html {
     height: 100%;
     width: 100%;
+    margin: 0%;
+    background-color: #e0e0e0;
+}
+
+.header {
+    background-color: rosybrown;
+}
+
+.footer {
+    background-color: rosybrown;
 }
 
 .main_container {
@@ -21,4 +31,23 @@ html {
 .social_handles {
     height: 20px;
     width: 22px;
+}
+
+.hotel_cards1 {
+    background-color: rgb(132, 136, 139);
+    width: 50%;
+    height: 20%;
+    margin: 2% auto;
+}
+
+.customer_info {
+    margin: 2% 2% 2% 2%;
+}
+
+.tariff {
+    margin: 2% 2% 2% 2%;
+    padding: 1% 2% 1% 2%;
+    border-color: black;
+    border: 1px solid;
+    border-radius: 5px;
 }

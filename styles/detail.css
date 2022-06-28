@@ -1,6 +1,16 @@
 html {
     height: 100%;
     width: 100%;
+    margin: 0%;
+    background-color: #e0e0e0;
+}
+
+.header {
+    background-color: rosybrown;
+}
+
+.footer {
+    background-color: rosybrown;
 }
 
 .main_container {
@@ -16,9 +26,20 @@ html {
 .cityimg {
     height: 500px;
     width: 500px;
+    margin: 2% 4% 0% 4%;
 }
 
 .social_handles {
     height: 20px;
     width: 22px;
+}
+
+.form {
+    /* width: 25%; */
+    margin: 0% 4% 1% 4%;
+    /* display: flex; */
+}
+
+.content {
+    margin: 1% 4% 2% 4%;
 }
