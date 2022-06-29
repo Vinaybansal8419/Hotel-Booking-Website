@@ -3,56 +3,55 @@
 
 <head>
     <meta charset="UTF-8">
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="styles/index.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/index.css">
+    <title>Index</title>
 </head>
 
 <body>
     <title>Index</title>
     <div class="main_container">
+
         <header class="header">
-            <img class="logo" src="assests/images/logo.png" alt="logo">
-            <a href="login.html">Login</a>
+            <img class="logo" id="logo" src="assests/images/logo.png" alt="logo">
+            <a href="login.html" id="login" style="color: black; text-decoration: none;">Login</a>
         </header>
-        <div class="content_div">
-            <input type="text" placeholder="city" id="search_bar">
+
+        <div>
+            <div class="content_div">
+                <input type="text" placeholder="city" id="search_bar">
+                <br>
+            </div>
+            <div class="city_cards">
+                <a href="list.html">
+                    <img class="cityimg" src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg" alt="Delhi">
+                </a>
+                <img class="cityimg" src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg" alt="Goa">
+                <img class="cityimg" src="https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg" alt="Hyderabad">
+                <img class="cityimg" src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg" alt="Kolkata">
+                <a href="index.html">
+                    <p class="view_more" style="color: black; text-decoration: none;"> View more >> </p>
+                </a>
+                <br>
+            </div>
+
+
+        </div>
+
+        <footer class="footer">
+            <a href="contact.html" class="contact" style="color: black; text-decoration: none;">Contact Us</a>
             <br>
-        </div>
-        <div class="city_cards">
-            <a href="list.html">
-                <img class="cityimg" src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg" alt="Delhi">
-            </a>
-            <img class="cityimg" src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg" alt="Goa">
-            <img class="cityimg" src="https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg" alt="Hyderabad">
-            <img class="cityimg" src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg" alt="Kolkata">
-        </div>
 
-        <a href="index.html">View more >></a>
-    </div>
+            <a href="https://twitter.com/" target="_blank"> <img src="assests/images/twitter.png" alt="" class="social_handles"></a>
 
-    <footer class="footer">
-
-        <div>
-            <a href="contact.html">Contact Us</a>
-        </div>
-        <div>
-
-            <a href="http://www.facebook.com" target="_blank">
-                <img class="social_handles" src="assests/images/facebook.png" alt="Facebook">
-            </a>
-            <a href="http://www.instagram.com" target="_blank">
-                <img class="social_handles" src="assests/images/instagram.png" alt="Instagram">
-            </a>
-            <a href="http://www.twitter.com" target="_blank">
-                <img class="social_handles" src="assests/images/twitter.png" alt="Twitter">
-            </a>
-
-        </div>
-        <div>
-            @ 2020 ROOM SEARCH PVT.LTD.
-        </div>
-    </footer>
+            <a href="https://www.instagram.com/" target="_blank"><img src="/assests/images/instagram.png" alt="" class="social_handles"></a>
+            <a href="https://www.facebook.com/" target="_blank"> <img src="/assests/images/facebook.png" alt="" class="social_handles"></a>
+            <br>
+            <p class="copyright"> &copy; 2020 ROOM SEARCH PVT.LTD</p>
+        </footer>
     </div>
 </body>
 

@@ -14,13 +14,15 @@
     <div class="main_container">
 
         <header class="header">
-            <a href="index.html"><img class="logo" src="assests/images/logo.png" alt="logo"></a>
-            <a href="login.html">Login</a>
+            <a href="index.html"><img class="logo" id="logo" style="color: black; text-decoration: none;" src="assests/images/logo.png" alt="logo"></a>
+            <a href="login.html" id="login" style="color: black; text-decoration: none;">Login</a>
         </header>
-        <div>
-            <a href="detail.html"> <img class="cityimg" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="Radisson Blu Hotel"> </a>
+        <div class="parent">
+            <div class="image">
+                <a href="detail.html"> <img class="cityimg" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="Radisson Blu Hotel"> </a>
 
-            </a>
+                </a>
+            </div>
 
             <form action="payment.html" class="form">
                 Adults: <input type="number" name="adults" required min="1" value="1">
@@ -46,30 +48,20 @@
                 </ul>
 
                 <h5>DESCRIPTION</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Deleniti, illum totan magni voluptatibus libero delectus nesciunt hic vel! Aperiam esse asperiores culpa, natus quam enum ex doloremque doloribus architecto!</p>
+                <div>Lorem ipsum dolor sit amet consectetur adipisicing elit.Deleniti, illum totan magni voluptatibus libero delectus nesciunt hic vel! Aperiam esse asperiores culpa, natus quam enum ex doloremque doloribus architecto!</div>
             </div>
         </div>
         <footer class="footer">
+            <a href="contact.html" class="contact">Contact Us</a>
+            <br>
 
-            <div>
-                <a href="contact.html" target="_blank">Contact Us</a>
-            </div>
-            <div>
+            <a href="https://twitter.com/" target="_blank"> <img src="assests/images/twitter.png" alt="" class="social_handles"></a>
 
-                <a href="http://www.facebook.com" target="_blank">
-                    <img class="social_handles" src="assests/images/facebook.png" alt="Facebook">
-                </a>
-                <a href="http://www.instagram.com" target="_blank">
-                    <img class="social_handles" src="assests/images/instagram.png" alt="instagram">
-                </a>
-                <a href="http://www.twitter.com" target="_blank">
-                    <img class="social_handles" src="assests/images/twitter.png" alt="twitter">
-                </a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="/assests/images/instagram.png" alt="" class="social_handles"></a>
 
-            </div>
-            <div>
-                @ 2020 ROOM SEARCH PVT.LTD.
-            </div>
+            <a href="https://www.facebook.com/" target="_blank"> <img src="/assests/images/facebook.png" alt="" class="social_handles"></a>
+            <br>
+            <p class="copyright"> &copy; 2020 ROOM SEARCH PVT.LTD</p>
         </footer>
     </div>
 
